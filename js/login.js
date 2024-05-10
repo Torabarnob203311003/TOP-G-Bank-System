@@ -19,7 +19,7 @@
             window.location.href= 'deposite.html' ;
          }
          else{
-          alert(' Wrong Password !!!Please Check Your Password')
+          alert('Your Are Not A Top-G')
          }
        
   
