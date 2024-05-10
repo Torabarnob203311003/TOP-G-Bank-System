@@ -19,7 +19,7 @@
             window.location.href= 'deposite.html' ;
          }
          else{
-            console.log('invalid')
+          alert(' Wrong Password !!!Please Check Your Password')
          }
        
   
