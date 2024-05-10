@@ -16,7 +16,7 @@
 
          if(Email==='1234' && pass === '123'){
 
-            console.log(' valid')
+            window.location.href= 'deposite.html' ;
          }
          else{
             console.log('invalid')
