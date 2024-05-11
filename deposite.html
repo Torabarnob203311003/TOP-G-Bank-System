@@ -33,7 +33,7 @@
         <div class="grid grid-cols-3 mt-12 gap-5  w-9/12 mx-auto">
             <div class="p-8 bg-green-500 rounded-lg ">
                 <h3 class="text-3xl text-white">Deposite</h3>
-                <h3 class="text-3xl text-white">$0</h3>
+                <h3 class="text-3xl text-white">$ <span id="total-depo">0</span></h3>
             </div>
             <div class="p-8 bg-gray-600  rounded-lg ">
                 <h3 class="text-3xl text-white">Withdraw</h3>
@@ -52,17 +52,17 @@
             <div class="p-8 bg-sky-400 rounded-lg ">
                 <h3 class="text-3xl text-white mb-9">Please Deposite</h3>
                     <div class=" ps-9 ">
-                        <input class="block w-9/12 mb-4 p-2 text-xl rounded-lg" type="email" name="" id="email-section"
+                        <input class="block w-9/12 mb-4 p-2  rounded-lg" type="text" name="" id="email-depo"
                             placeholder="$ amount you want to deposite">
                
-                        <button id="button-login"
+                        <button id="button-depo"
                             class="bg-orange-500 block mt-9  w-28 p-2  rounded-md hover:bg-blue-600 text-xl font-semibold">Deposite</button>
                     </div>
             </div>
             <div class="p-8 bg-indigo-400 rounded-lg ">
                 <h3 class="text-3xl text-white mb-9">Please Withdraw</h3>
                     <div class=" ps-9 ">
-                        <input class="block w-9/12 mb-4 p-2 text-xl rounded-lg" type="email" name="" id="email-section"
+                        <input class="block w-9/12 mb-4 p-2 rounded-lg" type="email" name="" id="email-section"
                             placeholder="$ amount you want to withdraw">
                
                         <button id="button-login"
