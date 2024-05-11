@@ -3,7 +3,7 @@
    const maildepo = document.getElementById('email-depo')
    const depoamountstring =maildepo.value;
    const depoamount =parseFloat(depoamountstring);
-   console.log(typeof depoamount)
+//    console.log(typeof depoamount)
    const previousdepo = document.getElementById('total-depo')
    const recentdepostring = previousdepo.innerText;
    const recentdepo = parseFloat(recentdepostring)
