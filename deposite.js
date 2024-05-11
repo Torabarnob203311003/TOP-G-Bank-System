@@ -1,4 +1,5 @@
-  document.getElementById('button-depo').addEventListener('click',function(){
+//depo  
+document.getElementById('button-depo').addEventListener('click',function(){
 
    const maildepo = document.getElementById('email-depo')
    const depoamountstring =maildepo.value;

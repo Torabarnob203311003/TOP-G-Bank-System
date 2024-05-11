@@ -1,3 +1,4 @@
+//login
         //  step 1 . get the button by id 
  document.getElementById('button-login').addEventListener('click',function(){
 

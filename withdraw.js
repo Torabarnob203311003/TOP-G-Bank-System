@@ -1,3 +1,5 @@
+//withdraw
+
 document.getElementById('button-withdraw').addEventListener('click', function () {
   // Step 1
   const withdraw = document.getElementById('withdraw-section');
